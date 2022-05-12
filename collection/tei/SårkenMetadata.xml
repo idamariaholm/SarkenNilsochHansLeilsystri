@@ -1,0 +1,2366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Markup av Sårken Nils u leilsystri samt Nils o gäddu</title>
+            <title type="alt">Markup av Pojken Nils och hans lillasyster samt Nils och gäddan</title>
+            <title type="alt">Markup av Sagorna om Pojken Nils och hans lillasyster samt Nils och
+               gäddan</title>
+            <title type="alt"> Markup av Sagorna om Sårken Nils u leilsystri samt Nils o gäddu</title>
+            <author>Bertil Larsson</author>
+            <respStmt>
+               <resp>Digitalisering, markup och digital publicering av</resp>
+               <persName>Hanna Reillo</persName>
+               <persName>Idamaria Holm</persName>
+               <orgName>Högskolan i Borås</orgName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Första utgåvan <date when="2021-09">September 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Högskolan i Borås</publisher>
+            <distributor>
+               <persName>Hanna Reillo</persName>
+               <persName>Idamaria Holm</persName>
+            </distributor>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-nd/2.5/se/">
+                  <p>CC-BY-NC-ND 2.5 SE gäller för detta dokument</p>
+                  <p>Denna licens tillåter återanvändare att kopiera och distribuera
+                     materialet i vilken typ av medium och format som helst men endast i
+                     ojusterad form, och endast för icke-kommersiella syften och endast om
+                     attribution tillskrivs skaparen. </p>
+                  <p>Vid vidare spridning av materialet måste denna licens medfölja
+                     materialet</p>
+                  <p>Copyright ligger hos upphovsmännen till den fysiska boken</p>
+               </licence>
+               <licence target="https://creativecommons.org/licenses/by-nc/2.5/se/">
+                  <p>CC-BY-NC 2.5 SE gäller för detta dokument för upphovsmännen av
+                     digitaliseringsprojektet</p>
+                  <p>Denna licens tillåter återanvändaren att distribuera, remixa, anpassa och
+                     bygga på materialet men endast för icke-kommersiella syften och endast om
+                     attribution tillskrivs skaparen.</p>
+                  <p>Copyright ligger hos upphovsmännen till den fysiska boken</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title>Sårken Nils u leilsystri samt Nils u gäddu</title>
+                  <author>Bertil Larsson</author>
+                  <author role="translator">Ebba Fredriksson<title>Nils u
+                     leilsystri</title></author>
+                  <author role="translator">Ing-Mari Larsson<title>Nils u gäddu</title></author>
+                  <author role="illustrator">Josefine Ingemarsson</author>
+                  <imprint>
+                     <biblScope unit="page" n="68">Sextioåtta sidor</biblScope>
+                     <biblScope unit="page" n="34">Trettifyra sidor<title>Sårken Nils u leilsystri
+                           samt Nils u gäddu</title></biblScope>
+                     <biblScope unit="page" n="34">Trettifyra sidor<title>Pojken Nils och hans
+                           lillasyster samt Nils och gäddan</title></biblScope>
+                     <publisher>www.ThomasTryckare.se</publisher>
+                     <date when="2021-09">September 2021</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Digitalisering av tête-bêche Nils u leilsystri samt Nils u gäddu som är skriven på
+               gutamål och översatt till svenska samt är illustrerad.</p>
+            <p>Syftet med digitaliseringen är att tillgängliggöra och sprida material på gutamål
+               till alla som är intresserade.</p>
+            <p>Syftet med markupen är att öka tillgängligheten av materialet, för att användare ska
+               kunna söka i en sökmotor och hitta hemsidan och för att tydliggöra varifrån
+               materialet kommer och vad som har gjorts med det. Dessutom underlättar markupen för
+               forskning på materialet.</p>
+            <p>Syftet med OCR:en är att göra materialet sökbart och för att underlätta för
+               läshjälpmedel.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p><gi>sic</gi> har använts för att visa på felaktigheter i originaltexten som låtits
+                  förbli i OCR:en.</p>
+            </correction>
+            <segmentation>
+               <p><gi>div</gi> har använts för att ange kapitel, <gi>head</gi>har använts för
+                  titlar, <gi>p</gi> har använts för att representera stycken, <gi>lb</gi>har
+                  använts för att visa på radbrytningar, <gi>pb</gi> har använts för att visa var en
+                  sida slutar och var en ny börjar. </p>
+            </segmentation>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="Sårken_01">
+         <figure>
+            <label>Sårken_01</label>
+            <figDesc>En illustration av Nils och hans familj samt en illustration av Nils, hans
+               farfar och en gädda </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_01.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_01_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_02">
+         <figure>
+            <label>Sårken_02</label>
+            <figDesc>Innerframsida med underskrifter </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_02.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_02_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_03">
+         <figure>
+            <label>Sårken_03</label>
+            <figDesc>Titelsida med information om upphovsmännen </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_03.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_03_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_04">
+         <figure>
+            <label>Sårken_04</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_04.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_04_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_05">
+         <figure>
+            <label>Sårken_05</label>
+            <figDesc>En illustration av pojken Nils som bebis </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_05.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_05_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_06">
+         <figure>
+            <label>Sårken_06</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_06.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_06_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_07">
+         <figure>
+            <label>Sårken_07</label>
+            <figDesc>En illustration av pojken Nils som leker med hönsen </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_07.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_07_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_08">
+         <figure>
+            <label>Sårken_08</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_08.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_08_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_09">
+         <figure>
+            <label>Sårken_09</label>
+            <figDesc>En illustration av pojken Nils i barnvagn i en ladugård </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_09.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_09_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_10">
+         <figure>
+            <label>Sårken_10</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_10.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_10_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_11">
+         <figure>
+            <label>Sårken_11</label>
+            <figDesc>En illustration av pojken Nils som åker traktor </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_11.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_11_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_12">
+         <figure>
+            <label>Sårken_12</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_12.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_12_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_13">
+         <figure>
+            <label>Sårken_13</label>
+            <figDesc>En illustration av pojken Nils som tittar på sin mammas gravida mage </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_13.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_13_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_14">
+         <figure>
+            <label>Sårken_s14</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_14.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_14_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_15">
+         <figure>
+            <label>Sårken_15</label>
+            <figDesc>En illustration av pojken Nils med sin mormor och morfar </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_15.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_15_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_16">
+         <figure>
+            <label>Sårken_16</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_16.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_16_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_17">
+         <figure>
+            <label>Sårken_17</label>
+            <figDesc>En illustration av pojken Nils med sin familj </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_17.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_17_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_18">
+         <figure>
+            <label>Sårken_18</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_18.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_18_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_19">
+         <figure>
+            <label>Sårken_19</label>
+            <figDesc>En illustration av Nils som öppnar presenter </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_19.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_19_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_20">
+         <figure>
+            <label>Sårken_20</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_20.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_20_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_21">
+         <figure>
+            <label>Sårken_21</label>
+            <figDesc>En illustration av en grupp indianer på en flyplats </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_21.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_21_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_22">
+         <figure>
+            <label>Sårken_22</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_22.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_22_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_23">
+         <figure>
+            <label>Sårken_23</label>
+            <figDesc>En illustration av Nils och farfar som fiskar i en hink </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_23.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_23_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_24">
+         <figure>
+            <label>Sårken_24</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_24.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_24_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_25">
+         <figure>
+            <label>Sårken_25</label>
+            <figDesc>En illustration av Nils, hans farfar och hans lillasyster </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_25.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_25_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_26">
+         <figure>
+            <label>Sårken_26</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_26.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_26_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_27">
+         <figure>
+            <label>Sårken_27</label>
+            <figDesc>En illustration av Nils och hans farfar som fiskar från en båt </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_27.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_27_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_28">
+         <figure>
+            <label>Sårken_28</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_28.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_28_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_29">
+         <figure>
+            <label>Sårken_29</label>
+            <figDesc>En illustration av Nils och morfar som får napp </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_29.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_29_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_30">
+         <figure>
+            <label>Sårken_30</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_30.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_30_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_31">
+         <figure>
+            <label>Sårken_31</label>
+            <figDesc>En illustration av Nils och morfar och gäddan </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_31.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_31_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_32">
+         <figure>
+            <label>Sårken_32</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_32.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_32_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_33">
+         <figure>
+            <label>Sårken_33</label>
+            <figDesc>En illustration av Nils och farfar som jagar gäddan som flyr </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_33.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_33_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_34">
+         <figure>
+            <label>Sårken_34</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_34.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_34_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_35">
+         <figure>
+            <label>Sårken_35</label>
+            <figDesc>En illustration av Nils som drömmer </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_35.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_35_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_36">
+         <figure>
+            <label>Sårken_36</label>
+            <figDesc>Ordlista </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_36.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_36_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_37">
+         <figure>
+            <label>Sårken_37</label>
+            <figDesc>En illustration av Nils och hans familj samt en illustration av Nils, hans
+               farfar och en gädda </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_37.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_37_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_38">
+         <figure>
+            <label>Sårken_38</label>
+            <figDesc>Blank innerframsida </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_38.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_38_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_39">
+         <figure>
+            <label>Sårken_39</label>
+            <figDesc>Titelsida med information om upphovsmännen </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_39.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_39_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_40">
+         <figure>
+            <label>Sårken_40</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_40.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_40_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_41">
+         <figure>
+            <label>Sårken_41</label>
+            <figDesc>En illustration av pojken Nils som bebis </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_41.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_41_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_42">
+         <figure>
+            <label>Sårken_42</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_42.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_42_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_43">
+         <figure>
+            <label>Sårken_43</label>
+            <figDesc>En illustration av pojken Nils som leker med hönsen </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_43.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_43_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_44">
+         <figure>
+            <label>Sårken_44</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_44.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_44_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_45">
+         <figure>
+            <label>Sårken_45</label>
+            <figDesc>En illustration av pojken Nils i barnvagn i en ladugård </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_45.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_45_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_46">
+         <figure>
+            <label>Sårken_46</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_46.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_46_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_47">
+         <figure>
+            <label>Sårken_47</label>
+            <figDesc>En illustration av pojken Nils som åker traktor </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_47.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_47_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_48">
+         <figure>
+            <label>Sårken_48</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_48.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_48_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_49">
+         <figure>
+            <label>Sårken_49</label>
+            <figDesc>En illustration av pojken Nils som tittar på sin mammas gravida mage </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_49.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_49_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_50">
+         <figure>
+            <label>Sårken_50</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_50.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_50_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_51">
+         <figure>
+            <label>Sårken_51</label>
+            <figDesc>En illustration av pojken Nils med sin mormor och morfar </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_51.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_51_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_52">
+         <figure>
+            <label>Sårken_52</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_52.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_52_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_53">
+         <figure>
+            <label>Sårken_53</label>
+            <figDesc>En illustration av pojken Nils med sin familj </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_53.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_53_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_54">
+         <figure>
+            <label>Sårken_54</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_54.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_54_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_55">
+         <figure>
+            <label>Sårken_55</label>
+            <figDesc>En illustration av Nils som öppnar presenter </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_55.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_55_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_56">
+         <figure>
+            <label>Sårken_56</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_56.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_56_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_57">
+         <figure>
+            <label>Sårken_57</label>
+            <figDesc>En illustration av en grupp indianer på en flyplats </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_57.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_57_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_58">
+         <figure>
+            <label>Sårken_58</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_58.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_58_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_59">
+         <figure>
+            <label>Sårken_59</label>
+            <figDesc>En illustration av Nils och farfar som fiskar i en hink </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_59.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_59_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_60">
+         <figure>
+            <label>Sårken_60</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_60.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_60_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_61">
+         <figure>
+            <label>Sårken_61</label>
+            <figDesc>En ilustration av Nils, hans farfar och hans lillasyster </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_61.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_61_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_62">
+         <figure>
+            <label>Sårken_62</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_62.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_62_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_63">
+         <figure>
+            <label>Sårken_63</label>
+            <figDesc>En illustration av Nils och hans farfar som fiskar från en båt </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_63.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_63_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_64">
+         <figure>
+            <label>Sårken_64</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_64.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_64_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_65">
+         <figure>
+            <label>Sårken_65</label>
+            <figDesc>En illustration av Nils och morfar som får napp </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_65.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_65_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_66">
+         <figure>
+            <label>GSårken_66</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_66.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_66_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_67">
+         <figure>
+            <label>Sårken_67</label>
+            <figDesc>En illustration av Nils och morfar och gäddan </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_67.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_67_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_68">
+         <figure>
+            <label>Sårken_68</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_68.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_68_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_69">
+         <figure>
+            <label>Sårken_69</label>
+            <figDesc>En illustration av Nils och farfar som jagar gäddan som flyr </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_69.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_69_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_70">
+         <figure>
+            <label>Sårken_70</label>
+            <figDesc>Text </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_70.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_70_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_71">
+         <figure>
+            <label>Sårken_71</label>
+            <figDesc>En illustration av Nils som drömmer </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_71.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_71_thumb.jpg"
+            />
+         </figure>
+      </surface>
+      <surface xml:id="Sårken_72">
+         <figure>
+            <label>Sårken_72</label>
+            <figDesc>Ordlista </figDesc>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/S%C3%A5rken_72.jpg"/>
+            <graphic
+               url="https://github.com/idamariaholm/SarkenNilsochHansLeilsystri/blob/main/docs/assets/img/documents/Sårken_72_thumb.jpg"
+            />
+         </figure>
+      </surface>
+   </facsimile>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">Sårken Nils u leilsystri samt Nils o gäddu</titlePart>
+               <titlePart type="alt">Pojken Nils och hans lillasyster samt Nils och
+                  gäddan</titlePart>
+            </docTitle>
+         </titlePage>
+      </front>
+      <group>
+         <text>
+            <front>
+               <div type="cover">
+                  <pb facs="#Sårken_01"/>
+                  <p>Sårken Nils u leilsystri </p>
+                  <p>samt</p>
+                  <p>Nils o gäddu </p>
+                  <p>2 sagor av </p>
+                  <p>Bertil Larsson <lb/>När, Gotland </p>
+               </div>
+               <div type="coverbackside">
+                  <pb facs="#Sårken_02"/>
+               </div>
+               <titlePage>
+                  <pb n="1" facs="#Sårken_03"/>
+                  <docTitle>
+                     <titlePart>Sagorna om Sårken Nils u leilsystri samt Nils u gäddu.</titlePart>
+                  </docTitle>
+                  <docImprint> 2 sagor i två versioner på Svenska och Gutamål<lb/> (Vänd på boken
+                     och läs från andra håller)</docImprint>
+                  <byline> Författare: <docAuthor>Bertil Larsson, När Gotland</docAuthor>
+                     Översättning: <docAuthor>Ebba Fredriksson </docAuthor>(Nils och lillasyster)<lb/>
+                     <docAuthor>Ing-Mari Larsson</docAuthor> (Nils och gäddan) <lb/> Illustrationer:
+                        <docAuthor>Josefine Ingemarsson</docAuthor>
+                  </byline>
+                  <docImprint> Förlag &amp; Tryck <publisher>www.ThomasTryckare.se</publisher>
+                     <lb/>
+                  </docImprint>
+                  <docEdition>Utgåva 1/1000 ex</docEdition>
+                  <docDate>September 2021</docDate>
+                  <docImprint>
+                     <idno>ISBN 978-91-985913-3-0</idno>
+                  </docImprint>
+               </titlePage>
+            </front>
+            <body>
+               <div type="chapter" n="1">
+                  <pb n="2" facs="#Sårken_04"/>
+                  <head>Sårken Nils u leilsystri</head>
+                  <p>Ja gynnar mei stråfen um sårken när han har blitt <lb/>täu ar. För de fyst täu
+                     ari di gar mäst äut pa till sivä, <lb/>säug pa sikkän, skit u piss i byxar,
+                     blei bärn pa, <lb/>kåiräs kring ei en vagn, stapplä i kring u flaug kull
+                     <lb/>pa hart gålv för till försök u lär si ga. <lb/>Naj de är int förrän man
+                     har fyllt täu ar som de bleir <lb/>leit mair tödå mei en. <lb/>Sän kan man
+                     undrä hur läng man är sårk. Ja har <lb/>håirt taläs um Jaugänningssårkar, de
+                     fick di hait så <lb/>läng di liväd. Så vörr är nuck sårkar ei all teid. Vörr
+                     <lb/>bleir bär sma sårkar u stäur sårkar. </p>
+                  <p>2</p>
+                  <pb n="3" facs="#Sårken_05"/>
+                  <p>3</p>
+                  <pb n="4" facs="#Sårken_06"/>
+                  <p>Mor u far di var böndar, di hadd mjölkkor, tjurkal- <lb/>var som di födäd upp
+                     till slakt. <lb/>Leit hyns hadd di mei u en stäurar hanä, dän skudd <lb/>man
+                     pass si för, kom man för naug da kund han <lb/>flaug pa en. Ja var egäntligen
+                     så gammäl att ja skudd <lb/>ha vart pa dagis, men mamma u pappa di skudd
+                     <lb/>sök u var haim pa gardn bäggi täu da kund ja fa var <lb/>haim mei, di
+                     tyckt ja fick träff nuck av ban ändå för <lb/>ja hadd reit mang kusinar. Så ja
+                     fick ga där u stapplä <lb/>i kring. <lb/>De gär man visst när man bleir gammäl
+                     u, oraidu <lb/>i häude u en dail gynnar da skit pa si igän u skall <lb/>skåitäs
+                     um som ban pa nöit igän. </p>
+                  <p>4</p>
+                  <pb n="5" facs="#Sårken_07"/>
+                  <p>5</p>
+                  <pb n="6" facs="#Sårken_08"/>
+                  <p>Så ja fick fylg mei äut ei häusar bad mårgän u kväld, <lb/>ja fick sit där pa
+                     tagatu ei en banvagn u keik mi <lb/>ikring. Iblant så siväd ja a stund, så
+                     bräukäd kattu <lb/>hupp upp ei vagn u siv där bei mi. Dei bräukäd var <lb/>ett
+                     faslit ojaud fyst när vörr kom in i ginum häusdu- <lb/>ri förrän pappa u mamma
+                     fick gi daim mat, sän tigd <lb/>di, så di kund fa sätt igång u mjölkä. <lb/>Pa
+                     dagar da kåird pappa traktor äut pa akrar. Han <lb/>plögäd harväd u sad da pa
+                     ladingän. <lb/>Da bräukäd ja ak traktor mei han, de tyckt ja var <lb/>rolit, da
+                     kund man sit u keik pa fäuglar som flaugäd <lb/>där ättar plogän u laitäd makk.
+                     De var masspeitar, <lb/>bläckar, mörmavar, tålkar u gjausar. <lb/>Så kund man
+                     da blei så avholit svämnu, da bräukäd <lb/>man sungne a stund.<sic/>Da hadd
+                     pappa mei si täck u <lb/>kudd, så fick ja ligg dä pa gålvä ei trakton för ja
+                     var <lb/>int så stäurar pa dän teidn. </p>
+                  <p>6</p>
+                  <pb n="7" facs="#Sårken_09"/>
+                  <pb n="8" facs="#Sårken_10"/>
+                  <p>En dag när vörr var äut bakum byggningän u kåiräd <lb/>in vid som vörr kastäd
+                     in i ginum källarfinsträ, <lb/>da snubbläd ja så hallgalä. Ja flaug pa häudä u
+                     slo <lb/>munn så avholit pa en grastain så bäggi framtändar <lb/>for upp i
+                     gomän, di försvant hailt. <lb/>De blai baul u skrei, snor u tarar rant, de gärd
+                     så <lb/>avholit ont. Vörr fick gleid till tannläkan u håir va <lb/>vörr skudd
+                     gär bei de. Di sägd att tändar di kom <lb/>nuck till väx neir i gänn u de gärd
+                     di, så ättar ett <lb/>halvår da var di pa plass i gänn. Ja smaban di har
+                     <lb/>gutt läkkyt. <lb/>När ja var feir ar da fick ja sei att mammas mag
+                     <lb/>hadd gynn växä u blitt störrä, ja funderäd leit pa <lb/>hur de kund varä,
+                     ha hadd kanhänd bräk ei si leit <lb/>för mik mat, ja far ta u fråg na. Da sägd
+                     ha att ja <lb/>skudd fa ett småsyskon, mamma hadd en beibis i <lb/>magän,
+                     jissan ändä hur hadd han kum in deit, ja far <lb/>ta u fråg na. Da sägd mamma
+                     någ um att de kund <lb/>blei så när pappa lag upp pa mamma u di älskäd u
+                     <lb/>tyck um varandrä avholik mikä. </p>
+                  <p>8</p>
+                  <pb n="9" facs="#Sårken_11"/>
+                  <p>9</p>
+                  <pb n="10" facs="#Sårken_12"/>
+                  <p>Da kom Nils ihåg när han vaknäd a nat u håird när <lb/>mamma u pappa gärd just
+                     de härä, för da hadd han <lb/>tat u kleiv upp pa pappas ryggen u sägt att ja
+                     ridä. <lb/>Da hadd mamma u pappa kum till grein så avholit <lb/>som int var
+                     likt. Så rulled pappa av mamma u sägd <lb/>att nå kom ja av mi nå. Så
+                     fortsättäd dagar u mam- <lb/>mas magän han blai avholit stäurar. Tillsläut da
+                     bär <lb/>ha gick u skraidäd si fram. <lb/>Ha hadd da fat släut u mjölkä de fick
+                     pappa gärä <lb/>för ha fick int var in i millum konar u båig si ner de
+                     <lb/>gick int häldar så ha fick hald si pa tagatu, skrap gö- <lb/>sel, stråi, u
+                     gi kalvar, hald si till leit änklare årkar. </p>
+                  <p>Så en mårgän när di var äut ei häusar u sösläd da <lb/>gick mamma u läutäd si
+                     ei ett häusfinstar u to si för <lb/>magän, så sag ha så besvärli äut. Pappa
+                     gick da hän <lb/>till na u frågäd va lains de sto till. Mamma sägd att <lb/>de
+                     var nuck dax nå, nå vill nuck banungän äut, men <lb/>mamma sägd da att ha kund
+                     nuck hald si a grandå <lb/>så di fick söslä av fyst. </p>
+                  <p>10</p>
+                  <pb n="11" facs="#Sårken_13"/>
+                  <p>11</p>
+                  <pb n="12" facs="#Sårken_14"/>
+                  <p>Sän skyndäd di si in u fick tvätt si u duschä, böit <lb/>kleidar, ja skudd u
+                     tvätt av mi leitä u andrä kleidar <lb/>skudd ja ha, för mi skudd di lämnä av
+                     bei mummu <lb/>u moffa. Så for di i väg till böin pa BB. </p>
+                  <p>När de sän hadd gat någrä teimar da ringäd pappa <lb/>u sägd att nå hadd ja fat
+                     en leilsystar, ha väged tre <lb/>komma åt kilå, mummu u moffa blai da så
+                     avholit <lb/>gladä. Sän to moffa fram täu sockarpaket u sägd att <lb/>nå skall
+                     däu fa känn hur tung leilsystri är, så lägd <lb/>han sockarpaketi i min famn,
+                     så tung är ha sägd <lb/>han. </p>
+                  <p>Ja fick da var bei daim ett par dagar, de tykt bad ja <lb/>u daim var rolit,
+                     för di bräukäd säg att ban ban de <lb/>är leiväs ättareit dei. För had vörr
+                     visst att de var så <lb/>rolit mei banban da hadd vörr skaff daim fyst. </p>
+                  <p>12</p>
+                  <pb n="13" facs="#Sårken_15"/>
+                  <p>13</p>
+                  <pb n="14" facs="#Sårken_16"/>
+                  <p>Moffar han bräukäd da hitt pa en hopän sakar som han <lb/>u ja kund rust
+                        mei<sic> , </sic>bland annat bräukäd vörr gleid ner <lb/>pa andjakt pa
+                     kväldar ei skäumningi. Da to han mei <lb/>leit råsseinar sötmandel u chukla som
+                     vörr sat där u <lb/>knapräd pa mäns vörr väntäd pa någå ankå. <lb/>Mummus go
+                     bullar had vör u mei. </p>
+                  <p>Sän när de da had gat någrä dagar da hämtäd pappa, <lb/>mamma u leilsystri ei
+                     bön så kom di förbei mummu u <lb/>moffa u hämtäd mi. Så veisäd di upp
+                     leilsystri för uss, <lb/>mummu u moffa di fick da hald ei na. <lb/>Di tyckt att
+                     ha var så avholit fein u gullu, ja tyckt ha sag <lb/>äut som a leiti källingg,
+                     skrynklu u flainpått. </p>
+                  <p>Naij nå far vörr ta u dräg uss haimåt sägd mamma u <lb/>pappa, di hadd da hatt
+                     avböitare någrä dagar så pappa <lb/>kund var in ei bön bei mamma u leilu.
+                     Avböitare de <lb/>var en som man kund laig in till ta hand um mjölkning <lb/>u
+                     årkar pa gardn. Sän när vörr hadd kum haim u kleiv <lb/>ur biln da stäld si
+                     mamma pa gardn, andädäs in riktut <lb/>djaupt, to upp mi i famn, kramäd um mi,
+                     sän sleitäd ha <lb/>pappa pa kinn, sägd att de var riktut gutt till kum haim
+                     <lb/>igän. </p>
+                  <p>14</p>
+                  <pb n="15" facs="#Sårken_17"/>
+                  <p>15</p>
+               </div>
+               <div type="chapter" n="2">
+                  <pb n="16" facs="#Sårken_18"/>
+                  <head>Nils u gäddu</head>
+                  <p>Nils hadd fyllt jamt för fyst gängen ei sitt leiv, nämligen <lb/>tei ar. Han
+                     hadd fat en hail hopen presentar. <lb/>Han hadd fat John Deere pa tvåhundre
+                     hästkraftar, <lb/>sukkar, byxar, u ein hailhopän mair graiar<sic>,</sic>Så var
+                     de <lb/>någ som skild si i fran de andrä, ett kastspö i fran- <lb/>fammu &amp;
+                        faffa<sic>,</sic> De var u ett raidut kastspö, langt u gråft <lb/>mei a
+                     leinå som skudd hald sjutti kilå, så en hail hopän <lb/>drag u spinnare
+                        till<sic> .</sic>
+                  </p>
+                  <p>Nils han fylld da pa ladingän så han kund fa kum äut <lb/>u kast ättar gäddar u
+                     abbur när som hälst så han var da <lb/>otulu till kum i väg så fort som mögli.
+                     <lb/>Faffa sägd att hok nå av a lånå vörr far vänt till vädrä <lb/>har slyträ
+                     av a grandå. <lb/>Sätt di ner så skall ja berätt en leitn stråf för di. </p>
+                  <p>16</p>
+                  <pb n="17" facs="#Sårken_19"/>
+                  <p>17</p>
+                  <pb n="18" facs="#Sårken_20"/>
+                  <p>”De var en gangg en grupp siouxindianar ungefärligän 50 <lb/>stycken som skudd
+                     flaug till USAs president för ett möt <lb/>me han. Mei flaugplanäs hjälp
+                     flyttäs di hundrätals mel till <lb/>huvudstadn. När di kom till ankomsthalln,
+                     da sättäd di si <lb/>ner pa gålvä allihop, fast att all vidd att di skudd ta
+                     taxi bi- <lb/>lar som sto äutför u väntäd, så vägräd di till rais si upp. En
+                     <lb/>hailar månä sat di där. Di inväntäd sein själar som omöglit <lb/>kund ha
+                     förflytt si leik fort som kruppän gärt mei flaugpla- <lb/>näs hjälp. Fyst ättar
+                     tretti dagar da var di redo till möt pre- <lb/>sidenten. <lb/>Kansk var de de
+                     all strässädä mänskar skudd gärä sätt si <lb/>ner a stund så teidn hant i fatt. </p>
+                  <p>Faffa han hadd en leitn bat mei en äutumbordare pa för <lb/>han u en till di
+                     bräuked nät i blant. Män faffa han sägd att <lb/>däu far lär di hanter spöä
+                     fyst de kan däu lär di pa land <sic/>Da <lb/>kund Nils fa lugnä neir si leitä
+                     tills de blai passande vädar, <lb/>leit varmarä. Solskein u blikå ei Peilgards
+                     viken skudd var <lb/>feint de. Så faffa r to ett zinkspann u ställd mitt pa
+                     stor- <lb/>gardn, så ringläd faffa äut ringar mei sagdus kring spannä, <lb/>fär
+                        stycken<sic> , </sic>yttärstä var störst så kom man inför den da <lb/>fick
+                     man en poäng ,<sic/>neist täu poäng, u så veidare, kom man <lb/>ei spannä fick
+                     man tei poäng. </p>
+                  <p>18</p>
+                  <pb n="19" facs="#Sårken_21"/>
+                  <p>19</p>
+                  <pb n="20" facs="#Sårken_22"/>
+                  <p>Nils o faffa di kom sän till tävlä um väm som var <lb/>heiväst o fa mäst poäng,
+                     i blant sto di tei metar ifran <lb/>spannä i blant tjugå. Nils han bräukäd vinn
+                     för de mä- <lb/>stä<sic>,</sic>han blai riktut snarvar pa de till släut så han
+                     kund <lb/>träff spannä mei vart trid kast. </p>
+                  <p><sic>.</sic></p>
+                  <p>Så en dag da kom faffa u sägd till Nils att till hälgi da <lb/>skudd de blei
+                     feint vädar o stillä. Så um freidkväld da <lb/>tar vörr batn u akar äut u
+                     kastar ättar gäddar sägd faf- <lb/>fa. Nils han blai så gladar att de äntligen
+                     skudd händä, <lb/>män de är jo ännu torstäs kväldar så han måst ännu siv <lb/>a
+                     hail nat o ga i skolu en hailar dag förrän de blai fre- <lb/>deskväldar. De kom
+                     till blei langdrug dei. </p>
+                  <p>Värst de var de till sungnä sän pa kväldn. Han lag där <lb/>ei sänggi u braid
+                     si fram u tillbaks, u kekäd pa spinspöä <lb/>som han had lägt där i jamt si ei
+                     sängi. Män till släut så <lb/>sungnäd Nils. Dei blai en langdrugän fredag ei
+                     skolu. <lb/>Så kom han da äntligän haim mei skolbussn, klucku <lb/>var färä.
+                     Faffa sto u väntäd ei lelgardsluku pa sårken<sic/>
+                  </p>
+                  <p>20</p>
+                  <pb n="21" facs="#Sårken_23"/>
+                  <p>21</p>
+                  <pb n="22" facs="#Sårken_24"/>
+                  <p>Nå do Nils nå ländar gäddar så nå far vörr ei väg. Nils <lb/>fick da ga in u
+                     böt um u fa pa si någ sämmar kleidar. <lb/>Sän sägd faffa-att han hadd gärt i
+                     årdning ett matskut, <lb/>så di kund jeit när di kom äut pa sjöen, så Nils
+                     behövd <lb/>int såil me de nå.<sic/>Män när di da skudd gi si i väg da <lb/>kom
+                     leil systar jagnäs u vidd mei <sic/>Naj naj de här de <lb/>är int någ för
+                     smatöisar de naj de här de är kalårkå de <lb/>sägd Nils så kavat. Faffa han
+                     fick da vänd si bårt för han <lb/>kom da till greinä. Ha blai någ blank ei augu
+                     män ha <lb/>to i alla fall int till baulä, sän for ha in till mamma. <lb/>Nils
+                     u faffa to vassin cykel u trampäd ner at vikän till <lb/>Nils mei kastspöä pa
+                     pakethållan u faffa mei matskutä <lb/>pa pakethållan.<sic/>De var bär snevat en
+                     kilometar ner till <lb/>strandbodi som faffa hadd batn. (Mf)Så fick di ei all
+                     graiar <lb/>ei batn u sän äut mei han ei sjöen. Så to faffa årar u rod <lb/>äut
+                     ei vikän.<sic/>Nils fick u ro, faffa taläd um hur han skudd <lb/>gärä, man
+                     skall såsom bär blåit årbladi a grandå så att <lb/>man int skrämar fisken. </p>
+                  <p>22</p>
+                  <pb n="23" facs="#Sårken_25"/>
+                  <p>23</p>
+                  <pb n="24" facs="#Sårken_26"/>
+                  <p>När di hadd kum äut lagum langt, sägd faffa att nå <lb/>däuga de. Nå far däu
+                     jeit leit mat Nils. Män Nils var så <lb/>späntar till gynn kastä så han fick da
+                     gär de a grandå. <lb/>Sän blai de pa häud ei matskutä, O ´boy u smörgås u
+                     <lb/>så fammos go stråibullar uppa, så leit råssenar<sic> ,</sic>schok- <lb/>la
+                     u nytkännar till nasslä pa. </p>
+                  <p>Så sat Nils u faffa där ei batn u njautäd ei kvällsoli ei <lb/>bliku. Sän
+                     gynnäd di da kast i gänn för någå gäddu <lb/>skudd di väl ändå ha mei si haim.
+                     När de da hadd gat <lb/>a stund da sägd Nils att nå fick ja nuck buttn napp. De
+                     <lb/>sat som bärg. Faffa to da spöä u skudd känn hur fast <lb/>de sat, da känd
+                     han hur de ryckäd till någ avholit, naj <lb/>do Nils sägd fafa de här de är int
+                     någ buttnnapp de <lb/>naij, de är nuck någ annat de. </p>
+                  <p>För faffa han känd att de var nuck a stäur fasli gäddå <lb/>som Nils hadd fat
+                     pa krokän. Så faffa han gav tillbaks <lb/>spöä till Nils o sägd att nå far däu
+                     fortsättä. </p>
+                  <p>24</p>
+                  <pb n="25" facs="#Sårken_27"/>
+                  <p>25</p>
+                  <pb n="26" facs="#Sårken_28"/>
+                  <p>Da blai de fart pa gäddu u Nils. Gäddu ha for i väg ett <lb/>faslit stycke för
+                     de fans nå en sån där slirning pa rulln, så <lb/>kund da Nils vaiv in a grandå
+                     så for da gäddu i väg i gänn. <lb/>Så haldäd Nils u gäddu pa, gäddu ha var så
+                     stäur så ha <lb/>drog tillumei batn mei si en bit. När ha da hadd hald pa
+                     <lb/>så en tjugo minutar så gynnäd ha da lugnä ner si a lånå, <lb/>så faffa han
+                     börjäd da ro in mot land leitä för här gäld de <lb/>till var leit listu för
+                     till fa upp de häru för ha var lagli stäur. <lb/>För hailt plötslit fick di se
+                     en stäurar gäddstjärt som slo <lb/>upp ur vattnä. <lb/>Da fick di en aning um
+                     va hur stäur ha var u de var int leit <lb/>de naij. Män nå börjed da Nils blei
+                     leit tråttar. Han blai <lb/>så släut ei armar till sit u drägä, så faffa fick
+                     da ta spöä a <lb/>stund så Nils fick päust leitä, för nå hadd di snart hald pa
+                     <lb/>en hailar teimä.<sic/>Män sån fick Nils fortsättä igän. <lb/>Faffa
+                     fortsätted u ro leit sakt u vackat in mot land. När <lb/>de da hadd gat a stund
+                     da ståitäd batn mot land så faffa <lb/>kund da kleiv ur batn u dra upp han a
+                     lånå, till så Nils <lb/>kund kum ur pa land u jobbe mei gäddu där i fran. Män
+                     <lb/>nå var bad Nils u gäddu lagli släut bäggi täu. Män de <lb/>undaleitäd för
+                     Nils till sta pa land. Så kund di fa se hur <lb/>avholit stäur gäddu var. De
+                     var en lagli bit de försto di. </p>
+                  <p>26</p>
+                  <pb n="27" facs="#Sårken_29"/>
+                  <p>27</p>
+                  <pb n="28" facs="#Sårken_30"/>
+                  <p>Faffa fick ta u ga ättar en tugstråpp ei batn för faffa han för- <lb/>sto att
+                     Nils han behöved all dän hjälp han kund fa för till <lb/>raid äut de här. Så
+                     när Nils fick in gäddu så naug land da <lb/>kund faffa kum äut u fa um
+                     tugstråppen bakum gälar pa <lb/>gäddu, u kund sän fa sleip upp na pa land.
+                     <lb/>Faffa var raint till si yvar gäddu, han trod att ha vägar säkat <lb/>en
+                     trätti/förti kilå,<sic/>de måst var värdsrekord. Nils han kom <lb/>nuck mei i
+                     Ginnis rekordbok mei de här. Faffa han keikäd <lb/>upp pa Nils, män han hadd
+                     sätt si pa en stain u var raint <lb/>släut ei armar. <lb/>Di bär hängäd u
+                     dingläd bei seidar u han var ginumsvaitn, <lb/>tarar di rant neir langs kinnar
+                     män de var av lyckå när han <lb/>fick se gäddu bärgi. Nils hadd da hald pa yvar
+                     en teimä. När <lb/>di da hadd åtarhämt si så gynnäd di funder pa haimfärdi. Di
+                     <lb/>försto att di int kund fa haim gäddu pa cykln. Di fick ring <lb/>ättar
+                     Nils pappa han fick kum neir mei traktån u snåiskopu. <lb/>Sän när pappa hadd
+                     kum u fick sei oskaplihaiti. Han blai <lb/>raint fåiar han bär sto u gapäd a
+                     lang stund. Sän skudd di <lb/>ha ei na ei skopu, män nå had da gäddu åtarhämt
+                     si leitä, så <lb/>ha var så argg u gali. Så ha högg ättar allt som ha kund kum
+                     <lb/>at,<sic/>för ha hadd någ fasli huggtändar. Ha högg pappa ei sty-
+                     <lb/>välsneipu män som täur var så hadd han stålhättar. Män di <lb/>fick da ei
+                     gäddu ei snåiskopu till släut u kund beigisi haimat. <lb/>Pappa för mei traktån
+                     u gäddu, faffa u Nils ättar pa cykel. <lb/>Sän när di hadd kum haim pa gardn da
+                     hadd de blitt lagli <lb/>skäumt äutä. </p>
+                  <p>28</p>
+                  <pb n="29" facs="#Sårken_31"/>
+                  <p>29</p>
+                  <pb n="30" facs="#Sårken_32"/>
+                  <p>Så vörr far ta varå pa gäddu i mårgå sägd faffa, män vörr far ta u <lb/>bind
+                     fast na. För gäddu ha liväd ännu gali u högg ättar allt u allä. <lb/>Så di
+                     sleipäd äut na ei treigardn u bant fast na ei ett pikktrei. Di <lb/>gick sän in
+                     till fammo u fick saft u fammos go stråibullar. Undar <lb/>teidn berättäd di
+                     för fammo va di hadd vart me um. Sän tänkt di <lb/>ring till teninggi u radion
+                     så di kund kumm u ta kort pa Nils u <lb/>gäddu, så kanhänd di vidd interjuv
+                     Nils um äventyr som di hadd <lb/>vart me um. Män nå var klucku mikä så nå fick
+                     di nuck ga i säng <lb/>u siv a grandå så Nils sägd gunatt till fammo u
+                     faffa<sic/>
+                  </p>
+                  <p>Neist mårgn da vaknäd Nils teilit för han skudd äut u sei pa gäd- <lb/>du. Män
+                     när han kom äut till pikktreiä da var gäddu bårtå, ha <lb/>hadd sleit si, kvar
+                     fanns bär en bit av tugstråppän. Nils kund da <lb/>sei en steig ei de daggvat
+                     grasä neir mot sjöen till. Naaj ha hadd <lb/>väl änd int hinn äut ei sjöen i
+                     gänn.<sic/>För faffa hadd berättä att var <lb/>grasä riktut släkvat da kund
+                     fiskar så som ål sim ei grasä. Nils <lb/>han störtäd si nå inn till faffa, han
+                     sat bei köksbordä mei en kopp <lb/>kaffi u en pirrvitt u läsäd teininggi. När
+                     han da fick håir va Nils <lb/>hadd till berätt da raist si faffa upp u sägd att
+                     nå är de bråskå nå. <lb/>Så gick di äut till pikktreiä u gynnäd fylg steigän
+                     som gäddu hadd <lb/>gärt. </p>
+                  <p>Den gick rak vägen ner mot vikän, män ha var da tvungi till ta si <lb/>yvar
+                     storvägän. <lb/>De klarar ha int sägd faffa så där far vörr nuck tag ei
+                     na.<sic/>Män de <lb/>var just va ha hadd gärt. Ha hadd kum yvar. </p>
+                  <p>30</p>
+                  <pb n="31" facs="#Sårken_33"/>
+                  <p>31</p>
+                  <pb n="32" facs="#Sårken_34"/>
+                  <p>Pa andrä seidu var de rygbläding u där var de leik blaut. Hadd ha <lb/>nå hinn
+                     neir ei vikän ällar va? Män da kund Nils u faffa sta pa vä- <lb/>gen u sei hur
+                     blädingen rörd si en bit stei. Där var ha! Nå blai de <lb/>bråttum. Men faffa
+                     han var da upp ei åri så han fick da stänn u <lb/>päust ett slag. Han sägd till
+                     Nils att däu far fortsätt självar för årkän <lb/>to släut. <lb/>Nils han
+                     skyndäd si da iväg ätta gäddu ainsummän. <sic>Fck</sic> till släut <lb/>sei
+                     leit av gäddu män nå var ha int langt ifran strandskvalpä. Så <lb/>var Nils i
+                     fatt na män da lag ha allt pa autru, bär en metar i fran <lb/>strandskvalpä.
+                     Nils to da tag ei stjärtn pa gäddu u försökt dra till- <lb/>baks na män ha
+                     vänds da um u högg ettar Nils så han var tvungän <lb/>till släppä. Sän kund han
+                     bär sta u sei mei tarar rinnäs neir för kin- <lb/>nar hur gäddu försvannt neir
+                     ei vikän. Ei rainar besvikälsä så ställd <lb/>si Nils u rautäd så mik han
+                     nöksns kund leik äut yvar vikän så var <lb/>inda fäugäl lyftäd som lag pa
+                     vattnä. <lb/>Da vaknäd Nils, samtedut yppnar mamma kammaduri u sägar va i
+                     <lb/>jissan ändä va liggar däu u rautar um sårk,<sic/>nå far däu steig upp för
+                     <lb/>skolbussn kummar um en halteimä. <lb/>Nils han sättäd si upp ei sänggi u
+                     keikar si örvakän umkring u far <lb/>sei kastspöä sta bei sänggi. Förstar um a
+                     stund att alltihop hadd <lb/>vart en dråim u att de var fredäsmårgän, han skudd
+                     ännu ei skolu <lb/>ein hailar dag till. <lb/>Sän ei kväld da skudd faffa u han
+                     äut u kast ättar gäddar, män de är <lb/>en annan stråf de. </p>
+                  <p>32</p>
+                  <pb n="33" facs="#Sårken_35"/>
+                  <p>33</p>
+               </div>
+               <pb n="34" facs="#Sårken_36"/>
+               <div type="chapter" n="3">
+                  <head>Några Gutniska ordförklaringar</head>
+                  <cb n="1"/>
+                  <entry n="1">
+                     <form>
+                        <orth>Augu</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Ögon</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="2">
+                     <form>
+                        <orth>Avholit</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Oskapligt</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="3">
+                     <form>
+                        <orth>Atrå</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Släke Blåstång</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="4">
+                     <form>
+                        <orth>Blaut</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Vått</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="5">
+                     <form>
+                        <orth>Blikå</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Blank Vatten</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="6">
+                     <form>
+                        <orth>Bläckar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Tofsvipor</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="7">
+                     <form>
+                        <orth>Baulä</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Gråta</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="8">
+                     <form>
+                        <orth>Bäggi täu</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Båda två</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="9">
+                     <form>
+                        <orth>Fåiar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Förvånad stum</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="10">
+                     <form>
+                        <orth>Gjausar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Trut</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="11">
+                     <form>
+                        <orth>Gynnäd</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Började</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="12">
+                     <form>
+                        <orth>Hailhopän</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Väldigt mycket</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="13">
+                     <form>
+                        <orth>Heiväst</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Bäst duktigast</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="14">
+                     <form>
+                        <orth>Hok nå av a lånå</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Vänta nu lite</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="15">
+                     <form>
+                        <orth>Jagnäs</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Springandes</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="16">
+                     <form>
+                        <orth>Leilgardsluku</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Lilla gårds grinden</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="17">
+                     <form>
+                        <orth>Masspeit</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Strandskata</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="18">
+                     <form>
+                        <orth>Matskut</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Matlåda</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="19">
+                     <form>
+                        <orth>Mörmavar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Skrattmåsar</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+               </div>
+               <div>
+                  <cb n="2"/>
+                  <entry n="1">
+                     <form>
+                        <orth>Neistä</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Nästa</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="2">
+                     <form>
+                        <orth>Nöksns</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Någonsin</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="3">
+                     <form>
+                        <orth>Pikktrei</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Päronträd</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="4">
+                     <form>
+                        <orth>Pirrvittar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Småkakor</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="5">
+                     <form>
+                        <orth>Päustä</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Pusta ut</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="6">
+                     <form>
+                        <orth>Rygbläding</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Rågbrådd</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="7">
+                     <form>
+                        <orth>Rautäd</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Skrek</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="8">
+                     <form>
+                        <orth>Sukkar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Strumpor</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="9">
+                     <form>
+                        <orth>Slyträ av a lånå</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Avtar lite</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="10">
+                     <form>
+                        <orth>Sungnä</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Somna</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="11">
+                     <form>
+                        <orth>Sårk</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Pojke</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="12">
+                     <form>
+                        <orth>Sneivat</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Knappt</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="13">
+                     <form>
+                        <orth>Styvälsneipå</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Stöveltå</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="14">
+                     <form>
+                        <orth>Släkvatar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Genomvåt</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="15">
+                     <form>
+                        <orth>Tagatu</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Skötselgången</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="16">
+                     <form>
+                        <orth>Tålkar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Rödbena</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="17">
+                     <form>
+                        <orth>Tugstråpp</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Repstump</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="18">
+                     <form>
+                        <orth>Småtöisar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Småflickor</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <p>34</p>
+               </div>
+            </body>
+         </text>
+         <text>
+            <front>
+               <div type="cover">
+                  <pb facs="#Sårken_37"/>
+                  <p>Pojken Nils och hans lillasyster </p>
+                  <p>samt</p>
+                  <p>Nils och gäddan </p>
+                  <p>2 sagor av </p>
+                  <p>Bertil Larsson <lb/>När, Gotland </p>
+               </div>
+               <div type="coverbackside">
+                  <pb facs="#Sårken_38"/>
+               </div>
+               <titlePage>
+                  <pb facs="#Sårken_39"/>
+                  <docTitle>
+                     <titlePart>Sagorna om Pojken Nils och hans lillasyster samt Nils och
+                        gäddan.</titlePart>
+                  </docTitle>
+                  <docImprint> 2 sagor i två versioner på Svenska och Gutamål<lb/> (Vänd på boken
+                     och läs från andra håller)</docImprint>
+                  <byline> Författare: <docAuthor>Bertil Larsson, När Gotland</docAuthor>
+                     Översättning: <docAuthor>Ebba Fredriksson </docAuthor>(Nils och lillasyster)<lb/>
+                     <docAuthor>Ing-Mari Larsson</docAuthor> (Nils och gäddan) <lb/> Illustrationer:
+                        <docAuthor>Josefine Ingemarsson</docAuthor>
+                  </byline>
+                  <docImprint> Förlag &amp; Tryck <publisher>www.ThomasTryckare.se</publisher>
+                     <lb/>
+                  </docImprint>
+                  <docEdition>Utgåva 1/1000 ex</docEdition>
+                  <docDate>September 2021</docDate>
+                  <docImprint>
+                     <idno>ISBN 978-91-985913-3-0</idno>
+                  </docImprint>
+               </titlePage>
+            </front>
+            <body>
+               <div type="chapter" n="1">
+                  <pb n="2" facs="#Sårken_40"/>
+                  <head>Pojken Nils och hans lillasyster</head>
+                  <p>Vi börjar sagan när Nils hade fyllt två år. <lb/>För de första två åren går
+                     mest ut på att sova, bli <lb/>ammad, bajsa och kissa i byxorna, bli buren på,
+                     kö- <lb/>ras runt i en vagn, gå omkring och snubbla på hårt <lb/>golv för att
+                     försöka lära sig att gå. </p>
+                  <p>Nej, det är inte förrän man har fyllt två år som det <lb/>blir lite mer ordning
+                     och reda. <lb/>Sen kan man undra hur länge man är pojke? <lb/>Jag har hört
+                     talas om Ljugännespojkarna, det fick de <lb/>heta så länge de levde. Så vi är
+                     nog pojkar i all tid, vi <lb/>blir bara små pojkar och stora pojkar. </p>
+                  <p>2</p>
+                  <pb n="3" facs="#Sårken_41"/>
+                  <p>3</p>
+                  <pb n="4" facs="#Sårken_42"/>
+                  <p>Mamma och pappa var bönder, de hade mjölkkor, <lb/>kalvar och födde upp tjurar
+                     till slakt. De hade även <lb/>lite höns och en stor tupp som man skulle akta
+                     sig <lb/>för. Kom man för nära så kunde han anfalla. Jag var <lb/>egentligen så
+                     gammal att jag skulle ha gått på för- <lb/>skolan men mamma och pappa skulle
+                     försöka vara <lb/>hemma på gården båda två så att jag också kunde få <lb/>vara
+                     hemma. <lb/>De tyckte att jag fick träffa tillräckligt med barn <lb/>ändå för
+                     att jag hade rätt många kusiner. Så jag fick <lb/>fortsätta att gå där och
+                     stappla omkring. <lb/>Det gör man visst när man blir gammal också, <lb/>oredig
+                     i huvudet och en del bajsar på sig igen och <lb/>skall skötas om som om de var
+                     ett barn igen. </p>
+                  <p>4</p>
+                  <pb n="5" facs="#Sårken_43"/>
+                  <p>5</p>
+                  <pb n="6" facs="#Sårken_44"/>
+                  <p>Så jag fick följa med ut i ladugården både på morgo- <lb/>nen och på kvällen.
+                     Jag fick sitta där i en barnvagn <lb/>på skötselgången och titta mig omkring.
+                     Ibland så <lb/>sov jag en stund, och då brukade katten hoppa upp i <lb/>vagnen
+                     och sova där med. <lb/>Det brukade vara ett förskräckligt oväsen på
+                        korna<sic> </sic>
+                     <lb/>Först när vi kom in genom dörren och mamma och <lb/>pappa fick ge dem mat
+                     blev de tysta, så de kunde få <lb/>sätta igång och mjölka. </p>
+                  <p>På dagarna körde pappa traktor ute på åkrarna. <lb/>Han plöjde, harvade och
+                     sådde på våren. Då bru- <lb/>kade jag åka med honom i traktorn. Det tyckte jag
+                     <lb/>var roligt, för då kunde man sitta och titta på fåg- <lb/>lar som flög
+                     efter plogen och letade mask. Det var <lb/>strandskator, tofsvipor,
+                     skrattmåsar, rödbenor och <lb/>trutar. Och så kunde man bli så himla trött och
+                     då <lb/>brukade jag somna en stund. Då hade pappa med <lb/>sig täcke och kudde,
+                     då fick jag ligga på golvet i <lb/>traktorn för jag var inte så stor på den
+                     tiden. </p>
+                  <p>6</p>
+                  <pb n="7" facs="#Sårken_45"/>
+                  <p>7</p>
+                  <pb n="8" facs="#Sårken_46"/>
+                  <p>En dag när vi var ute bakom huset och körde in ved <lb/>som vi kastade in genom
+                     källarfönstret, då snubb- <lb/>lade jag så illa så jag flög på huvudet och slog
+                     mun- <lb/>nen på en sten så att båda framtänderna flög upp i <lb/>gommen och
+                     försvann helt. Det blev gråt och skrik. <lb/>Snor och tårar rann, det gjorde så
+                     ont. Vi fick åka <lb/>till tandläkaren och fråga vad vi skulle göra med
+                     <lb/>det. De sa att tänderna nog kommer att växa ner <lb/>igen och det gjorde
+                     dem. Så efter ett halvår så var de <lb/>på plats igen. Ja småbarn de har bra
+                     läkkött. </p>
+                  <p>När jag var fyra år fick jag se att mammas mage <lb/>hade vuxit och blivit
+                     större. Jag funderade på hur <lb/>det kunde vara så, hon kanske hade ätit för
+                     mycket <lb/>mat, jag fick ta och fråga henne. Då svarade hon att <lb/>jag
+                     skulle få ett småsyskon, mamma hade en bebis i <lb/>magen. Jösses! Hur hade han
+                     kommit in dit? Jag fick <lb/>ta och fråga henne. Då sa mamma något om att det
+                     <lb/>kunde bli så när pappa låg uppe på mamma och de <lb/>älskade och tyckte om
+                     varandra väldigt mycket. </p>
+                  <p>8</p>
+                  <pb n="9" facs="#Sårken_47"/>
+                  <p>9</p>
+                  <pb n="10" facs="#Sårken_48"/>
+                  <p>Då kom pojken ihåg när han vaknade en natt och <lb/>hörde mamma och pappa göra
+                     just det där. <lb/>Då klev han upp på pappas rygg och sa att han red <lb/>och
+                     då började mamma och pappa skratta så myck- <lb/>et så det inte var likt något.
+                     <lb/>Då rullade pappa av mamma och sa något om att <lb/>”nu kom jag av mig”. Så
+                     fortsatte dagarna och <lb/>mammas mage blev väldigt stor. Till slut så bara
+                     <lb/>vankade hon sig fram. Hon hade då fått sluta att <lb/>mjölka så det fick
+                     pappa göra. Hon fick inte lov att <lb/>vara emellan korna och att böja sig ner
+                     gick inte <lb/>heller. Så hon fick hålla sig på skötselgången och <lb/>skrapa
+                     skit, strö, ge kalvarna mat och göra de lite <lb/>lättare sakerna. <lb/>En
+                     morgon när de var ute i ladugården och mjölka- <lb/>de så gick mamma och lutade
+                     sig mot fönstret och <lb/>tog sig för magen. Hon såg bekymrad ut så pappa
+                     <lb/>gick fram till henne och frågade hur hon mådde. <lb/>Mamma svarade att det
+                     nog var dags nu, att bar- <lb/>net ville ut. Men säger att hon nog kan hålla
+                     sig en <lb/>stund till så han kan få mjölka klart. </p>
+                  <p>10</p>
+                  <pb n="11" facs="#Sårken_49"/>
+                  <p>11</p>
+                  <pb n="12" facs="#Sårken_50"/>
+                  <p>Sen skyndade de sig in och fick tvätta sig, duscha, <lb/>och byta kläder.
+                     <lb/>Jag skulle också tvätta mig lite och andra kläder <lb/>skulle jag ha, för
+                     mig skulle de lämna av vid <lb/>mormor och morfar. <lb/>Sen åkte de iväg till
+                     stan på BB. <lb/>När det hade gått några timmar så ringde pappa <lb/>och sa att
+                     jag hade fått en lillasyster. <lb/>Hon vägde 3,8 kilo. <lb/>Morfar och mormor
+                     blev då så glada. <lb/>Sen tog morfar ner två sockerpaket och sa ”nu skall
+                     <lb/>du få känna hur tung lillasyster är” och så la han <lb/>paketen i min
+                     famn, så tung är hon sa han sedan. </p>
+                  <p>Jag fick då vara hos dem ett par dagar, det tyckte vi <lb/>bara var roligt. För
+                     de brukade säga att barnbarnen <lb/>var livets efterrätt. ”Om vi bara hade
+                     vetat hur roligt <lb/>det är med barnbarn så hade vi skaffat dem först.” </p>
+                  <p>12</p>
+                  <pb n="13" facs="#Sårken_51"/>
+                  <p>13</p>
+                  <pb n="14" facs="#Sårken_52"/>
+                  <p>Morfar brukade hitta på en massa saker som han och <lb/>jag kunde hålla på med.
+                     Bland annat brukade vi åka på <lb/>andjakt på kvällarna i skymningen. Då tog
+                     han med <lb/>russin, sötmandel och choklad som vi satt och knapra- <lb/>de på
+                     medan vi väntade på änder. Och mormors goda <lb/>bullar hade vi också med.
+                     <lb/>När det hade gått några dagar så hämtade pappa, <lb/>mamma och lillasyster
+                     i stan så kom de förbi mor- <lb/>mor och morfar och hämtade mig. Då visade de
+                     upp <lb/>lillasyster för oss, mormor och morfar fick då hålla i <lb/>henne, de
+                     tyckte att hon var så himla fin och gullig. Jag <lb/>tyckte att hon såg ut som
+                     en liten tant, skrynklig och <lb/>flintskallig. <lb/>”Nej nu får vi ta och åka
+                     hem” sa mamma och pappa. <lb/>De hade då haft avbytare några dagar så att pappa
+                     kun- <lb/>de vara inne i stan med mamma och lillan. Avbytare <lb/>det var en
+                     person som man kunde hyra in att ta hand <lb/>om mjölkningen och jobbet på
+                     gården. Sen när vi hade <lb/>kommit hem och klivit ut ur bilen då ställde sig
+                     mam- <lb/>ma på gården. Andades in riktigt djupt. Tog upp mig i <lb/>famnen och
+                     kramade om mig. Sen strök hon pappa på <lb/>kinden och sa att det var riktigt
+                     skönt att komma hem. </p>
+                  <p>14</p>
+                  <pb n="15" facs="#Sårken_53"/>
+                  <p>15</p>
+               </div>
+               <div type="chapter" n="2">
+                  <pb n="16" facs="#Sårken_54"/>
+                  <head>Nils och gäddan</head>
+                  <p>Nils hade fyllt jämt för första gången i sitt liv, nämligen <lb/>tio år. Han
+                     hade fått en hel del presenter. Han hade fått <lb/>en John Deere på 200
+                     hästkrafter, sockor, byxor och en <lb/>hel hop med saker. <lb/>Så var det något
+                     som skiljde sig från de andra, ett <lb/>kastspö från farmor och farfar. Det var
+                     ett redigt kast- <lb/>spö, långt och grovt och med en lina som skulle hålla
+                     <lb/>70 kilo och en hel hop med drag och spinnare till. </p>
+                  <p>Nils, han fyllde år på våren så han kunde få komma ut <lb/>och kasta efter
+                     gädda och abborre när som helst, så han <lb/>var otålig att få komma iväg så
+                     fort som möjligt. </p>
+                  <p>Farfar sa: lugna dig lite, vi får vän- <lb/>ta tills vädret avtar något. Sätt
+                     dig ner <lb/>så ska jag berätta en liten strof för dig. </p>
+
+                  <p>16</p>
+                  <pb n="17" facs="#Sårken_55"/>
+                  <p>17</p>
+                  <pb n="18" facs="#Sårken_56"/>
+                  <p>” Det var en gång en grupp sioux-indianer<sic> , </sic> ungefär 50 st, <lb/>som
+                     skulle flyga till USA för ett möte med presidenten. <lb/>Med flygplanets hjälp
+                     förflyttades de hundratals mil till <lb/>huvudstaden. När de kom till
+                     ankomsthallen satte de sig <lb/>ner på golvet. Fastän alla ville att de skulle
+                     ta taxibilar som <lb/>väntade utanför vägrade de att resa på sig. En hel månad
+                     <lb/>satt de där. De inväntade sina själar som omöjligt kunnat <lb/>förflytta
+                     sig så fort som deras kroppar hade gjort med flyg- <lb/>planets hjälp. Först
+                     efter 30 dagar var de redo att träffa pre- <lb/>sidenten.” <lb/>Kanske var det
+                     detta alla stressade människor skulle göra, <lb/>sätta sig ner en stund så
+                     tiden hann ifatt. <lb/>Farfar hade en liten båt med utombordare på, för han och
+                     <lb/>en till brukade sätta ut nät ibland. <lb/>Men, farfar han sa: ”Du får lära
+                     dig hantera kastspöet <lb/>först och det kan du göra på land.” Då kunde Nils
+                     lugna <lb/>ner sig lite tills det blev passande väder. Lite varmare med
+                     <lb/>solsken och vindstilla på sjön i Pilgårdsviken, det skulle <lb/>sitta fint
+                     det. <lb/>Så farfar tog ett zinkspann och ställde mitt ute på storgår-
+                     <lb/>den, sen ringlade han ut ringar med sågdus runt spannet, <lb/>fyra
+                     stycken. Yttersta ringen, som var störst, kom man <lb/>innanför den fick man 1
+                     poäng. Innanför nästa fick man 2 <lb/>poäng och så vidare. <lb/>Träffade man
+                     spannet fick man 10 poäng.</p>
+                  <p>18</p>
+                  <pb n="19" facs="#Sårken_57"/>
+                  <p>19</p>
+                  <pb n="20" facs="#Sårken_58"/>
+                  <p>Nils och farfar kom sen att tävla om vem som var säk- <lb/>rast på att ta mest
+                     poäng. <lb/>Ibland stod de 10 meter från spannet, ibland 20 meter. <lb/>Nils
+                     brukade vinna för det mesta. Han blev riktigt sä- <lb/>ker på det till slut, så
+                     han kunde träffa spannet ungefär <lb/>vart tredje kast. <lb/>Så en dag kom
+                     farfar och sa till Nils att det till helgen <lb/>skulle bli fint väder och
+                     stilla, så på fredagkväll tar vi <lb/>båten och åker ut och kastar efter
+                     gäddor. <lb/>Nils han blev så glad att det äntligen skulle ske. <lb/>Men det
+                     var ju ännu bara torsdagkväll så han måste <lb/>först sova ännu en natt, gå i
+                     skolan en hel dag innan <lb/>det blev fredagkväll. Det kom att bli långdraget
+                     det. <lb/>Värst var det att somna på kvällen. Han låg där i säng- <lb/>en och
+                     vred sig, tittade på kastspöet som han ställt <lb/>bredvid sängen. Men så till
+                     slut somnade Nils. </p>
+                  <p>Det blev en lång dag i skolan. Så kom han äntligen hem <lb/>med skolbussen.
+                     Klockan var fyra och farfar stod i <lb/>lillgårdsgrinden och väntade på pojken. </p>
+                  <p>20</p>
+                  <pb n="21" facs="#Sårken_59"/>
+                  <p>21</p>
+                  <pb n="22" facs="#Sårken_60"/>
+                  <p>Nu du Nils, nu är gäddan på väg in så vi far iväg. <lb/>Nils gick in och bytte
+                     om till sämre kläder. Sen sa farfar <lb/>att han gjort iordning en matlåda som
+                     de kunde äta när <lb/>de kom ut på sjön, så det behövde Nils inte ordna med.
+                     <lb/>Men när de skulle ge sig iväg kom lillasyster springan- <lb/>de och ville
+                     med. <lb/>-Nej nej, det här är inget för småflickor, det är karlgöra <lb/>det,
+                     sa Nils så kavat. <lb/>Farfar fick vända sig om för han kom att skratta. Hon
+                     <lb/>blev blank i ögonen men började inte gråta. Sen sprang <lb/>hon in till
+                     mamma. <lb/>Nils och farfar tog varsin cykel och trampade ner till
+                        <lb/>viken<sic> , </sic>Nils med kastspöet på pakethållaren och farfar
+                     <lb/>med matlådan på sin pakethållare. Det var knappt en <lb/>kilometer ner
+                     till strandboden där farfar hade sin båt. <lb/>Så fick de ner alla saker i
+                     båten och ut med den på sjön. <lb/>Farfar tog årorna och rodde ut i viken. Nils
+                     fick också <lb/>ro<sic> , </sic>farfar förklarade hur han skulle göra. Man
+                     skulle <lb/>bara doppa årbladen lite i vattnet så man inte skrämde <lb/>fisken. </p>
+                  <p>22</p>
+                  <pb n="23" facs="#Sårken_61"/>
+                  <p>23</p>
+                  <pb n="24" facs="#Sårken_62"/>
+                  <p>När de hade kommit tillräckligt långt ut sa farfar, att <lb/>nu räcker det. Nu
+                     får du äta lite Nils. Men Nils var så <lb/>spänd på att börja kasta så han fick
+                     göra det en stund <lb/>först. <lb/>Sen blev det på huvudet i matlådan.
+                     <lb/>O´boy och smörgås och så farmors goda ströbullar ef- <lb/>ter det. Så lite
+                     russin, choklad och nötter att nassla på. <lb/>Där satt Nils och farfar i båten
+                     och njöt i kvällssolen <lb/>och stillheten. <lb/>Så började de kasta igen för
+                     någon gädda skulle de väl <lb/>ha med sig hem. När det hade gått en stund sa
+                     Nils: <lb/>Nu har jag fått bottennapp. Det sitter som berg. Farfar <lb/>tog
+                     spöet och skulle känna efter hur hårt det satt, då <lb/>kände han hur det
+                     ryckte något förskräckligt. <lb/>-Nej du Nils det här är inget bottennapp det
+                     här inte, <lb/>det är något annat. <lb/>Farfar kände att det var nog en
+                     förskräckligt stor gädda <lb/>som Nils hade fått på kroken. Han överlämnade
+                     spöt <lb/>till Nils och sa. <sic/>- Nu får du fortsätta. </p>
+                  <p>24</p>
+                  <pb n="25" facs="#Sårken_63"/>
+                  <p>25</p>
+                  <pb n="26" facs="#Sårken_64"/>
+                  <p>Det blev fart på gäddan och Nils. Gäddan for iväg ett fas- <lb/>ligt stycke men
+                     det fanns slirning på rullen så Nils kunde <lb/>veva in lite. Så for gäddan
+                     iväg igen och så höll Nils och <lb/>gäddan på. Gäddan var så stor så den drog
+                     till och med <lb/>med sig båten en bit. <lb/>När den så hade hållit på i 20
+                     minuter ungefär så började <lb/>den lugna ner sig lite. Farfar började ro inåt
+                     land för här <lb/>gällde det att vara lite listig för att få upp den för den
+                     var <lb/>tämligen stor. Helt plötsligt fick de se en stor fiskstjärt slå
+                     <lb/>upp ur vattnet. Då fick de en aning om hur stor den var <lb/>och den var
+                     inte dålig. Men nu började Nils bli lite trött. <lb/>Han blev så slut i armarna
+                     av att sitta och dra, så farfar <lb/>fick ta spöet en stund och Nils fick vila
+                     lite, för de hade <lb/>snart hållit på en hel timme. Sedan fick Nils fortsätta
+                     igen <lb/>medan farfar rodde sakta och vackert in mot land. När <lb/>det hade
+                     gått en stund stötte de mot land så farfar kunde <lb/>kliva ur båten och dra
+                     upp den lite så Nils kunde kliva ur <lb/>och upp på land och jobba med gäddan
+                     därifrån. Nu var <lb/>både Nils och gäddan tämligen trötta, men det underlät-
+                     <lb/>tade för Nils att stå på land. Så kunde de se hur oskapligt <lb/>stor
+                     gäddan var och den var inte dålig, det såg de. </p>
+                  <p>26</p>
+                  <pb n="27" facs="#Sårken_65"/>
+                  <p>27</p>
+                  <pb n="28" facs="#Sårken_66"/>
+                  <p>Farfar fick gå efter en repstump i båten för han förstod <lb/>att Nils behövde
+                     all hjälp han kunde få för att klara av det <lb/>här. Nils fick in gäddan så
+                     nära land att farfar kunde kom- <lb/>ma ut och lägga repstumpen bakom gälarna
+                     på den och få <lb/>släpa upp den på land. Farfar var rakt till sig över gäddan,
+                     <lb/>han trodde att den vägde säkert 30-40 kilo. Det måste vara
+                     <lb/>världsrekord. Nils kommer nog in i Guiness <lb/>med den här. <lb/>Farfar
+                     han tittade upp på Nils, men han hade satt sig på en <lb/>sten och var helt
+                     slut i armarna som bara hängde och ding- <lb/>lade längs sidorna och han var
+                     genomsvettig. Tårarna rann <lb/>längs kinderna men det var av lycka när han
+                     fick se gäddan <lb/>bärgad. Nils hade hållit på i över en timme. <lb/>När de
+                     hade återhämtat sig så började de fundera på hem- <lb/>Färden<sic/> De förstod
+                     att de inte skulle få hem gäddan på cy- <lb/>keln. De fick ringa efter Nils
+                     pappa som fick komma med <lb/>traktorn och snöskopan. När sen pappa kom och
+                     fick se <lb/>oskapligheten blev han helt förstummad och bara stod och
+                     <lb/>gapade en lång stund. Sen skulle de ha i den i snöskopan, <lb/>men då hade
+                     gäddan återhämtat sig lite, och hon var så arg <lb/>och galen och högg efter
+                     allt hon kunde komma åt. Hon <lb/>hade hemska huggtänder och högg i pappas
+                     stöveltår, men <lb/>som tur var hade han stålhättor. De fick i gäddan i snösko-
+                     <lb/>pan till slut och kunde bege sig hemåt. Pappa före med trak- <lb/>torn och
+                     gäddan. Farfar och Nils efter på cykel. När de sen <lb/>kom hem på gården hade
+                     det börjat skymma. </p>
+                  <p>28</p>
+                  <pb n="29" facs="#Sårken_67"/>
+                  <p>29</p>
+                  <pb n="30" facs="#Sårken_68"/>
+                  <p>Vi får ta vara på gäddan imorgon, sa farfar, men vi får nog binda <lb/>fast
+                     den. För gäddan var ännu helt galen och högg efter allt och <lb/>alla. Så de
+                     släpade ut den i trädgården och band fast den i ett pä- <lb/>ronträd. <lb/>Sen
+                     gick de in till farmor och fick saft och hennes goda ströbul- <lb/>lar. Under
+                     tiden berättade de för farmor vad de hade varit med <lb/>om. Så tänkte de ringa
+                     till radion och till tidningen så de kunde <lb/>komma och fotografera Nils och
+                     gäddan och kanske intervjua <lb/>Nils om äventyret han hade varit med om.
+                     <lb/>Men nu var klockan mycket och det var dags att gå i säng och <lb/>sova
+                     lite, så Nils sa god natt till farmor och farfar. <lb/>Nästa morgon vaknade
+                     Nils tidigt för han skulle ut och se på <lb/>gäddan. Men när han kom ut till
+                     päronträdet var gäddan borta. <lb/>Hon hade slitit sig, kvar fanns bara
+                     repstumpen. <lb/>Nils kunde se en stig genom det daggvåta gräset ner mot sjön.
+                     <lb/>Nej! Hon hade väl ändå inte hunnit ner till sjön. För farfar hade
+                     <lb/>berättat att om det var riktigt vått i gräset att fiskar såsom ål tex.
+                     <lb/>kunde ”simma” i gräset. Nils han störtade sig in till farfar som <lb/>satt
+                     vid köksbordet med kaffe och en småkaka och läste tidning- <lb/>en. När han
+                     fick höra vad Nils hade att berätta så reste han sig <lb/>upp och sa att nu var
+                     det bråttom. Så gick de ut till päronträdet <lb/>och började följa stigen som
+                     gäddan hade gjort. Den gick raka <lb/>vägen ner mot viken, men hon var då
+                     tvungen att ta sig över sto- <lb/>ra vägen. Det klarar hon nog inte, så där får
+                     vi tag i henne. <lb/>Men det var just vad hon hade gjort. Hon hade kommit över. </p>
+                  <p>30</p>
+                  <pb n="31" facs="#Sårken_69"/>
+                  <p>31</p>
+                  <pb n="32" facs="#Sårken_70"/>
+                  <p>På andra sidan vägen var det råg som just kommit upp och där var det <lb/>lika
+                     vått. Hade hon nu hunnit ner till viken, eller? Men då kunde Nils <lb/>och
+                     farfar stå på vägen och se hur rågbladen rörde sig en bit framför <lb/>dem. Nu
+                     blev det bråttom. Farfar som var lite till åren kommen fick <lb/>stanna och
+                     pusta lite. Han sa till Nils:<sic/>-Du får fortsätta själv för orken är
+                     <lb/>slut. <lb/>Nils skyndade ensam iväg efter gäddan. Fick till slut se lite
+                     av henne <lb/>och hon var inte långt ifrån vågskvalpet. Så var Nils ifatt henne
+                     men då <lb/>låg hon redan på tången bara en meter från vattnet. Nils tog tag i
+                     stjärt- <lb/>fenan och försökte dra tillbaka henne men hon vände sig om och
+                     högg <lb/>efter honom så han var tvungen att släppa. Sen kunde han bara stå med
+                     <lb/>tårarna rinnande nedför kinderna och se när gäddan försvann ut i
+                     <lb/>viken. I ren besvikelse så ställde sig Nils och skrek så mycket han kunde
+                     <lb/>rakt ut över viken, så varenda fågel som låg på vattnet lyfte. <lb/>Då
+                     vaknade Nils, samtidigt som mamma öppnar sovrumsdörren och <lb/>säger: Vad i
+                     all sin dar ligger du och skriker om pojke? <lb/>Nu får du stiga upp för
+                     skolbussen kommer om en halvtimme. Nils <lb/>satte sig upp på sängkanten och
+                     tittade sig yrvaket omkring och fick <lb/>se kastspöet stå vid sängen. Förstår
+                     efter en stund att allt bara varit en <lb/>dröm, att det var fredagmorgon<sic>
+                        .</sic> Han skulle ännu i skolan en hel dag <lb/>till. </p>
+                  <p>Sen till kvällen skulle farfar och han ut och kasta efter gäddor. <lb/>Men det
+                     är en annan historia. </p>
+                  <p>32</p>
+                  <pb n="33" facs="#Sårken_71"/>
+                  <p>33</p>
+               </div>
+               <div type="chapter" n="3">
+                  <pb n="34" facs="#Sårken_72"/>
+                  <head>Några Gutniska ordförklaringar</head>
+                  <cb n="1"/>
+                  <entry n="1">
+                     <form>
+                        <orth>Augu</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Ögon</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="2">
+                     <form>
+                        <orth>Avholit</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Oskapligt</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="3">
+                     <form>
+                        <orth>Atrå</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Släke Blåstång</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="4">
+                     <form>
+                        <orth>Blaut</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Vått</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="5">
+                     <form>
+                        <orth>Blikå</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Blank Vatten</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="6">
+                     <form>
+                        <orth>Bläckar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Tofsvipor</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="7">
+                     <form>
+                        <orth>Baulä</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Gråta</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="8">
+                     <form>
+                        <orth>Bäggi täu</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Båda två</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="9">
+                     <form>
+                        <orth>Fåiar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Förvånad stum</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="10">
+                     <form>
+                        <orth>Gjausar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Trut</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="11">
+                     <form>
+                        <orth>Gynnäd</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Började</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="12">
+                     <form>
+                        <orth>Hailhopän</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Väldigt mycket</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="13">
+                     <form>
+                        <orth>Heiväst</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Bäst duktigast</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="14">
+                     <form>
+                        <orth>Hok nå av a lånå</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Vänta nu lite</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="15">
+                     <form>
+                        <orth>Jagnäs</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Springandes</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="16">
+                     <form>
+                        <orth>Leilgardsluku</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Lilla gårds grinden</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="17">
+                     <form>
+                        <orth>Masspeit</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Strandskata</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="18">
+                     <form>
+                        <orth>Matskut</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Matlåda</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="19">
+                     <form>
+                        <orth>Mörmavar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Skrattmåsar</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <cb n="2"/>
+                  <entry n="1">
+                     <form>
+                        <orth>Neistä</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Nästa</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="2">
+                     <form>
+                        <orth>Nöksns</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Någonsin</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="3">
+                     <form>
+                        <orth>Pikktrei</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Päronträd</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="4">
+                     <form>
+                        <orth>Pirrvittar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Småkakor</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="5">
+                     <form>
+                        <orth>Päustä</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Pusta ut</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="6">
+                     <form>
+                        <orth>Rygbläding</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Rågbrådd</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="7">
+                     <form>
+                        <orth>Rautäd</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Skrek</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="8">
+                     <form>
+                        <orth>Sukkar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Strumpor</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="9">
+                     <form>
+                        <orth>Slyträ av a lånå</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Avtar lite</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="10">
+                     <form>
+                        <orth>Sungnä</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Somna</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="11">
+                     <form>
+                        <orth>Sårk</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Pojke</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="12">
+                     <form>
+                        <orth>Sneivat</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Knappt</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="13">
+                     <form>
+                        <orth>Styvälsneipå</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Stöveltå</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="14">
+                     <form>
+                        <orth>Släkvatar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Genomvåt</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="15">
+                     <form>
+                        <orth>Tagatu</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Skötselgången</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="16">
+                     <form>
+                        <orth>Tålkar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Rödbena</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="17">
+                     <form>
+                        <orth>Tugstråpp</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Repstump</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <entry n="18">
+                     <form>
+                        <orth>Småtöisar</orth>
+                     </form>
+                     <sense>
+                        <cit type="translation" xml:lang="sv">
+                           <quote>Småflickor</quote>
+                        </cit>
+                     </sense>
+                  </entry>
+                  <p>34</p>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>
