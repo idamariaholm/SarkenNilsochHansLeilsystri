@@ -1,6 +1,6 @@
 # Digitisation of a children's book in Gutamål and Swedish
 
-This is a digitisation project within the Digitising Cultural Heritage Materials (DCHM) course at the University of Borås in which a tete-beche children's in Gutamål and Swedish has been digitised and published online via GitHub Pages. 
+This is a digitisation project within the Digitising Cultural Heritage Materials (DCHM) course at the University of Borås in which a tete-beche children's book in Gutamål and Swedish has been digitised and published online via GitHub Pages. 
 
 🚀[Visit the Website](https://idamariaholm.github.io/SarkenNilsochHansLeilsystri/) to see the published version.  
 
