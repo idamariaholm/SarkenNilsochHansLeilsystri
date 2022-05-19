@@ -895,7 +895,7 @@
          </figure>
       </surface>
    </facsimile>
-   <text>
+   <text n="1">
       <front>
          <titlePage>
             <docTitle>
@@ -906,7 +906,7 @@
          </titlePage>
       </front>
       <group>
-         <text>
+         <text n="2">
             <front>
                <div type="cover">
                   <pb facs="#Sårken_01"/>
@@ -952,8 +952,8 @@
                      har fyllt täu ar som de bleir <lb/>leit mair tödå mei en. <lb/>Sän kan man
                      undrä hur läng man är sårk. Ja har <lb/>håirt taläs um Jaugänningssårkar, de
                      fick di hait så <lb/>läng di liväd. Så vörr är nuck sårkar ei all teid. Vörr
-                     <lb/>bleir bär sma sårkar u stäur sårkar. </p>
-                  <p>2</p>
+                     <lb/>bleir bär sma sårkar u stäur sårkar.</p>
+                     <p><lb/>2</p>
                   <pb n="3" facs="#Sårken_05"/>
                   <p>3</p>
                   <pb n="4" facs="#Sårken_06"/>
@@ -984,6 +984,7 @@
                      var <lb/>int så stäurar pa dän teidn. </p>
                   <p>6</p>
                   <pb n="7" facs="#Sårken_09"/>
+                  <p>7</p>
                   <pb n="8" facs="#Sårken_10"/>
                   <p>En dag när vörr var äut bakum byggningän u kåiräd <lb/>in vid som vörr kastäd
                      in i ginum källarfinsträ, <lb/>da snubbläd ja så hallgalä. Ja flaug pa häudä u
@@ -1634,7 +1635,7 @@
                </div>
             </body>
          </text>
-         <text>
+         <text n="3">
             <front>
                <div type="cover">
                   <pb facs="#Sårken_37"/>
