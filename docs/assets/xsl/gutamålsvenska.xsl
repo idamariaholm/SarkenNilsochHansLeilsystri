@@ -9,20 +9,18 @@
         doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
         doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
     />
-    <!-- Tailored on the background of letter-to-LG.xml spoiler
-        Please note that some solutions can be differently made, simplified etc
-        These are for illustration only, but feel free to use if and retailor it
-        for your own project.
-    -->
     <xsl:template match="/">
         <html>
             <head>
+                <title> Sårken Nils u leilsystri samt Nils o gäddu: Gutamål och svenska
+                </title>
                 <link rel="stylesheet"
                     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
                     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
                     crossorigin="anonymous"/>
-                <title> gutamålsvenska 
-                </title>
+                <link rel="stylesheet" href="assets/css/main.css"/>
+                <link rel="stylesheet" href="assets/css/desktop.css"/>
+                      
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
                 <style type="text/css">
                     body { margin : 10% }
@@ -32,8 +30,19 @@
                     } 
                 </style>
             </head>
-            
+            <body>
+                <header>
+                    <h1>Sårken Nils u leilsystri samt Nils o gäddu
+                    </h1>
+                    <h2>En barnbok på gutamål och svenska</h2>
+                </header>
+                <nav id="sitenav"><a href="index.html">Hem</a> |
+                    <a href="gutamål.html">Gutamål</a> |
+                    <a href="svenska.html">Svenska</a> |
+                    <a href="gutamålsvenska.htm">Gutamål och svenska</a>
+                </nav>
             <main>
+                <header><h1>Download</h1></header>
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
@@ -49,26 +58,35 @@
                     </div>
                 </div>
              </main>
+                <footer>
+                    <div class="row" id="footer">
+                        <div class="col-sm copyright">
+                            <div><a href="https://creativecommons.org/licenses/by-nc-nd/2.5/se/ "><img width="100" src="assets/img/logos/by-nc-nd.png" class="copyright_logo" alt="Creative Commons License"/></a></div>
+                            <div class="copyright_text">
+                                2022 Hanna Reillo och Idamaria Holm.
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </body>
         </html>
     </xsl:template>
     
     <xsl:template match="tei:p">
         <xsl:apply-templates/><p/>    
     </xsl:template>
-   
-  
-    
     
     <xsl:template match="tei:lb">
         <xsl:apply-templates/><br/>   
     </xsl:template>
     
-    <xsl:template match="tei:form">
-        <xsl:apply-templates/><p/>   
+    <xsl:template match="tei:div">
+        <xsl:apply-templates/><br/>   
     </xsl:template>
-    
-    <xsl:template match="tei:sense">
-        <xsl:apply-templates/><p/>   
+ 
+    <xsl:template match="tei:entry">
+        <p><p class="table-primary"><xsl:value-of select="tei:form/tei:orth"/></p>   
+            <p class="table-secondary"><xsl:value-of select="tei:sense/tei:cit/tei:quote"/></p></p>
     </xsl:template>
     
     <xsl:template match="tei:head">
