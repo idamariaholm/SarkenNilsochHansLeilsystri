@@ -42,7 +42,7 @@
                     <a href="gutamålsvenska.htm">Gutamål och svenska</a>
                 </nav>
             <main>
-                <header><h1>Download</h1></header>
+                <header><h1></h1></header>
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
@@ -85,8 +85,8 @@
     </xsl:template>
  
     <xsl:template match="tei:entry">
-        <p><p class="table-primary"><xsl:value-of select="tei:form/tei:orth"/></p>   
-            <p class="table-secondary"><xsl:value-of select="tei:sense/tei:cit/tei:quote"/></p></p>
+        <p class="table-primary"><xsl:value-of select="tei:form/tei:orth"/></p>   
+        <p class="table-secondary"><xsl:value-of select="tei:sense/tei:cit/tei:quote"/></p>
     </xsl:template>
     
     <xsl:template match="tei:head">
