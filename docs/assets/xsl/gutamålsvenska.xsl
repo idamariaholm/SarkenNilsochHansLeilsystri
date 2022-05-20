@@ -85,8 +85,12 @@
     </xsl:template>
  
     <xsl:template match="tei:entry">
-        <p class="table-primary"><xsl:value-of select="tei:form/tei:orth"/></p>   
-        <p class="table-secondary"><xsl:value-of select="tei:sense/tei:cit/tei:quote"/></p>
+        <div class="container">
+            <div class="row">
+        <div class="col-sm"><xsl:value-of select="tei:form/tei:orth"/></div>   
+        <div class="col-sm"><xsl:value-of select="tei:sense/tei:cit/tei:quote"/></div>
+        </div>
+            </div>
     </xsl:template>
     
     <xsl:template match="tei:head">
