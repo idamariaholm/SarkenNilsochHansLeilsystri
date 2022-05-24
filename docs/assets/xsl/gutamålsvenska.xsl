@@ -33,7 +33,8 @@
                 <nav id="sitenav"><a href="index.html">Hem</a> |
                     <a href="gutamål.html">Gutamål</a> |
                     <a href="svenska.html">Svenska</a> |
-                    <a href="gutamålsvenska.htm">Gutamål och svenska</a>
+                    <a href="gutamålsvenska.htm">Gutamål och svenska</a> |
+                    <a href="teipdf.html">TEI och PDF</a> |
                 </nav>
             <main>
                 <header><h3>Gutamål och svenska parallellt</h3>
