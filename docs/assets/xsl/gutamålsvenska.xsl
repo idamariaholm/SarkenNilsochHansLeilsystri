@@ -22,19 +22,13 @@
                 <link rel="stylesheet" href="assets/css/desktop.css"/>
                       
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-                <style type="text/css">
-                    body { margin : 10% }
-                    .head { font-weight : bold ;
-                    margin-bottom : 1em ;
-                    font-size : 20px
-                    } 
-                </style>
             </head>
             <body>
                 <header>
                     <h1>Sårken Nils u leilsystri samt Nils o gäddu
                     </h1>
                     <h2>En barnbok på gutamål och svenska</h2>
+                    
                 </header>
                 <nav id="sitenav"><a href="index.html">Hem</a> |
                     <a href="gutamål.html">Gutamål</a> |
@@ -42,7 +36,8 @@
                     <a href="gutamålsvenska.htm">Gutamål och svenska</a>
                 </nav>
             <main>
-                <header><h1></h1></header>
+                <header><h3>Gutamål och svenska parallellt</h3>
+                </header>
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
