@@ -37,7 +37,7 @@
                     <a href="teipdf.html">TEI och PDF</a> |
                 </nav>
             <main>
-                <header><h3>Gutamål och svenska parallellt</h3>
+                <header><h3>Gutamål och svenska</h3>
                 </header>
                 <div class="container">
                     <div class="row">
